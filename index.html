@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board tarefas</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <header class="container-header">
+            <h1>Board de tarefas</h1>
+        </header>
+        <main id="container-main">
+            <section id="create-todo-section">
+                <form id="create-todo-form">                          
+                    <input type="text" id="descricao" name="descricao" placeholder="Nome da tarefa" aria-label="Nome da tarefa" class="input-nome-tarefa"/>
+                    <input type="text" id="etiqueta" name="etiqueta" placeholder="Etiqueta" aria-label="Etiqueta" class="input-etiqueta"/>
+                    <div class="container-btn">
+                    <button type="submit" aria-label="Cadastrar tarefa" class="add-tarefa-btn">+</button>
+                    </div>
+                </form>
+            </section>
+            <section class="todo-list-section">
+                <ul id="todo-list">
+                </ul>
+            </section>
+        </main>
+        <footer id="todo-footer" aria-live="polite">
+        </footer>
+    </div>    
+    <script src="index.js"></script>
+</body>
+</html>
