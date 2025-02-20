@@ -1,2 +1,2 @@
 # Board-de-Tarefas
-Projeto desenvolvido em JavaScript
+Projeto de uma board de tarefas, feito com JavaScript!
